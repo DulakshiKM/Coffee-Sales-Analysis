@@ -8,9 +8,20 @@ With these insights, owners can make informed decisions regarding menu adjustmen
 
 ## Steps Followed
 
-1. Step 1: Description of the first step you followed.
-2. Step 2: Description of the second step you followed.
-3. Step 3: Description of the third step you followed.
+1. Step 1: Identify dataset and check missing values using python.
+2. Step 2: Load data into Power BI Desktop, dataset is a csv file.
+3. Step 2: Open power query editor & in view tab under Data preview section.
+4. Step 3: Then transform data types of the date and time columns and add new tables for the Product Details, Store details, Date and filter rows.
+5. Step 4: Then load the data into Power BIby clicking "Apply & close" button.
+6. Step 5: Add new columns and new measures to tables as follows.
+   - Substep A: Transactions table
+       - Add new column for the revenue.
+
+        Revenue = Transactions[unit_price]*Transactions[transaction_qty]
+   - 
+8. Step 6:Following DAX expression was written for the same,
+        
+        Revenue = Transactions[unit_price]*Transactions[transaction_qty]
    - Substep A: Additional details if needed.
    - Substep B: Additional details if needed.
 
